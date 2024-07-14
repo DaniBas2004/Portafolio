@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Mí</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="shortcut icon" href="./Multimedia/icon.svg" type="image/x-icon">
+</head>
+<body>
+    <audio id="myAudio" src="./Multimedia/Danza Paraguaya.mp3" autoplay loop></audio>
+    <script>
+        window.addEventListener('load', function() {
+            var audio = document.getElementById('myAudio');
+            audio.volume = 0.01; 
+        });
+    </script>
+    <div class="video-container">
+        <video autoplay muted loop id="bg-video">
+            <source src='./Multimedia/loopmusic.mp4' type="video/mp4">
+        </video>
+    </div>
+    <header class="header">
+        <nav class="menu">
+            <a href="index.html" class="home">Inicio</a>
+            <a href="about.html" class="home">Sobre Mí</a>
+            <a href="proyects.html" class="home">Proyectos</a>
+        </nav>
+    </header>
+    <main class="presentacion">
+        <section class="prcontenido">
+            <h2 class="h2">Sobre Mí:</h2>
+            <p class="p">¡Hola! Soy Danilson Bastidas, desarrollador web en continuo aprendizaje. Soy un estudiante de programación
+                que se interesó en el desarrollo a los 19 años. Me apasiona la música y la tecnología. <br>
+                Mis hobbies son tocar instrumentos de cuerda, el deporte y, por supuesto, la tecnología y videojuegos.
+            </p>
+            <p class="p">
+                Actualmente tengo experiencia con tecnologías como HTML, CSS, JavaScript, 
+                TypeScript, React, Tailwind, Git, GitHub y SQL.
+            </p>
+        </section>
+    </main>
+    <footer class="footer1">
+        <p>Derechos Reservados <span>&copy;</span>Danilson Bastidas</p>
+    </footer>
+</body>
+</html>

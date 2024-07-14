@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montaga&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+    color: aliceblue;
+    box-sizing: border-box;
+    
+}
+strong{
+    font-size: 1.75rem;
+    color: #fff;
+    text-shadow:  0 0 5px #4fb0ff,
+    0 0 10px #4fb0ff,
+    0 0 15px #4fb0ff;
+    animation: neon 1s ease-in-out infinite alternate;
+}
+h1{
+    font-size: 1.875rem;
+    font-family: "Krona One", sans-serif;
+    color: #ffffff;
+}
+h2{
+    font-family: 'Krona One','Sans serif';
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.h2{
+    font-family: 'Krona One','Sans serif';
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: white;
+}
+p{
+    font-size: 1.25rem;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+}
+.p{
+    font-size: 1.25rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    color: white;
+}
+.header{
+    padding: 2% 0% 0% 15%;
+}
+.menu{
+    display: flex;
+    gap: 80px;
+    animation: EntrardesdeAr
+                    1s ease;
+}
+.home{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: #4fb0ff;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+.home:hover{
+    color: #ffffff;
+    text-shadow: 0 0 5px #4fb0ff, 0 0 10px #4fb0ff, 0 0 20px #4fb0ff, 0 0 30px #4fb0ff, 0 0 40px #4fb0ff;
+}
+/* .home2{
+    font-family: "Montaga", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: none;
+    transition-duration: 0.5s;
+} */
+/* .home2:hover{
+    color: #ffffff;
+    text-shadow: 0 0 5px #000000, 0 0 10px #000000, 0 0 20px #000000, 0 0 30px #000000, 0 0 40px #000000;
+} */
+.presentacion{
+    display: flex;
+    align-items: center;
+    padding: 5% 10%;
+    justify-content: space-between;
+    gap: 82px;
+    animation: EntrardesdeIz
+                    0.8s ease;
+}
+.prcontenido{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.enlaces{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+.linkedin{
+    width: 50%;
+    background-color:transparent;
+    text-align: center;
+    padding: 21.5px 0 ;
+    border-radius: 16px;
+    border: 3px solid #4fb0ff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    transition-duration: 0.5s;
+}
+.linkedin:hover{
+    box-shadow: 0 0 5px #4fb0ff, 0 0 10px #4fb0ff, 0 0 20px #4fb0ff;
+    text-shadow: 0 0 5px #4fb0ff, 0 0 10px #4fb0ff, 0 0 20px #4fb0ff;
+}
+.github{
+    width: 50%;  
+    background-color: transparent;
+    text-align: center;
+    padding: 21.5px 0 ;
+    border-radius: 16px;
+    border: 3px solid #4fb0ff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    transition-duration: 0.5s;
+}
+.github:hover{
+    box-shadow: 0 0 5px #4fb0ff, 0 0 10px #4fb0ff, 0 0 20px #4fb0ff;
+    text-shadow:0 0 5px #4fb0ff, 0 0 10px #4fb0ff, 0 0 20px #4fb0ff; 
+}
+.whatsapp{
+    width: 50%;   
+    background-color: transparent;
+    text-align: center;
+    padding: 21.5px 0 ;
+    border-radius: 16px;
+    border: 3px solid #4fb0ff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    transition-duration: 0.5s;
+}
+.whatsapp:hover{
+    box-shadow: 0 0 5px #4fb0ff, 0 0 10px #4fb0ff, 0 0 20px #4fb0ff;
+    text-shadow:0 0 5px #4fb0ff, 0 0 10px #4fb0ff, 0 0 20px #4fb0ff; 
+}
+.whatsappi{
+    width: 31px;
+}
+.video-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+#bg-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.blur-in{
+    animation:blur-in 0.8s linear both
+} 
+@keyframes blur-in{
+    0%{filter:blur(12px);opacity:0}100%{filter:blur(0);opacity:1}
+}
+.programador{
+    width: 50%;
+    border-radius: 4px;
+    border: 6px #4fb0ff;
+    box-shadow: 0 0 5px #4fb0ff,0 0 10px #4fb0ff,0 0 15px #4fb0ff,0 0 20px #4fb0ff;
+    animation: neoni 1s ease-in-out infinite alternate;
+}
+.footer{
+    text-align: center;
+    font-family: "Montaga", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.footer1{
+    text-align: center;
+    font-family: "Montaga", serif;
+    font-weight: 600;
+    font-style: normal;
+    color: black;
+    padding-top: 120px
+}
+@keyframes EntrardesdeIz{
+    from{
+        transform: translateX(-200%);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
+@keyframes EntrardesdeAr{
+    from{
+        transform: translateX(500%);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
+@keyframes neon {
+    from {
+        text-shadow:0 0 5px #4fb0ff,
+                    0 0 15px #4fb0ff;
+    }
+    to {
+        text-shadow:  0 0 5px #4fb0ff,
+                    0 0 10px #4fb0ff,
+                    0 0 15px #4fb0ff,
+                    0 0 18px #4fb0ff,
+                    0 0 20px #4fb0ff;
+    }
+}
+@keyframes neoni {
+    from {
+        box-shadow: 0 0 20px #4fb0ff,
+    }
+    to {
+        box-shadow:  0 0 5px #4fb0ff,
+                    0 0 10px #4fb0ff,
+                    0 0 20px #4fb0ff,
+                    0 0 30px #4fb0ff,
+                    0 0 40px #4fb0ff;
+    }
+}
+@media(max-width: 1200px){
+    .header{
+        padding: 10%;
+    }
+    .menu{
+        justify-content: center;
+        padding-bottom: 10%;
+    }
+    .presentacion{
+        flex-direction: column-reverse;
+    }
+    .programador{
+        width: 90%;
+        border-radius: 4px;
+        border: 6px #4fb0ff;
+        box-shadow: 0 0 5px #4fb0ff, 0 0 10px #4fb0ff, 0 0 20px #4fb0ff,0 0 30px #4fb0ff;
+    }
+    .prcontenido{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    }
+    .linkedin{
+        width: 70%;
+    }
+    .github{
+        width: 70%;
+    }
+    .whatsapp{
+        width: 70%;
+    }
+    #bg-video {
+        min-width: auto;
+        min-height: 100%;
+        width: 100%;
+        height: auto;
+    }
+}
