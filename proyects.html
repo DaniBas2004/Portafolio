@@ -8,7 +8,7 @@
     <link rel="shortcut icon" href="./Multimedia/icon.svg" type="image/x-icon">
 </head>
 <body>
-
+    <div class="video-container"></div>
     <header class="header">
         <nav class="menu">
             <a href="index.html" class="home">Inicio</a>
@@ -20,15 +20,35 @@
     <main class="presentacion">
         <section class="prcontenido">
             <h1>Proyectos personales y trabajos elaborados:</h1>
-            <p>Hola soy Danilsón desarrollador de front-end con experiencia en distintos proyectos web,
-                ayudo a pequeños negocios y diseñadores a llevar a cabo buenas ideas.¿Hablamos?
+            <p>He llevado acabo proyectos para empresas locales y proyectos personales 
+                que ayudan a mi desarrollo continuo como programador web y experiencia
+                laboral.Aquí te muestro sobre ello: 
             </p>
         </section>
     </main>
 
-    <footer>
-        <p>Derechos Reservados <span>&copy;</span> Danilson Bastidas</p>
+    <footer class="footer1">
+        <p class="footer">Derechos Reservados <span>&copy;</span> Danilson Bastidas</p>
     </footer>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+    <script>
+    VANTA.NET({
+    el: ".video-container",
+    mouseControls: true,
+    touchControls: true,
+    gyroControls: false,
+    minHeight: 200.00,
+    minWidth: 200.00,
+    scale: 1.00,
+    scaleMobile: 1.00,
+    color: 0x3f8eff,
+    backgroundColor: 0x0,
+    points: 20.00,
+    maxDistance: 17.00,
+    spacing: 14.00,
+    showDots: false
+    })
+    </script>
 </body>
 </html>
